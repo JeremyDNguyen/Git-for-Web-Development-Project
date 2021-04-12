@@ -1,4 +1,4 @@
-Module Project 2 CodePEN URL: https://codepen.io/Reincursion/pen/VwPyGjv?editors=0100
+Module Project 2 CodePEN URL: https://codepen.io/Reincursion/pen/VwPyGjv
 Hello, my name is Jeremy!
 
 1. What is Semantic HTML?
