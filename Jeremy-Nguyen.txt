@@ -1,0 +1,94 @@
+Module Project 2 CodePEN URL: https://codepen.io/Reincursion/pen/VwPyGjv
+Hello, my name is Jeremy!
+
+1. What is Semantic HTML?
+	Semantic HTML are  HTML tags that are more straight forward in meaning.  
+2. What is HTML used for?
+	HTML is used to give a website the look and feel of user experience.
+3. What is an attribute and where do we put it?
+	An attribute is a direct link or source given at the beginning of each tag
+4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag is an indication of the most important or main topic of a page. Typically only used once.
+5. Name two tags that have required attributes
+	<img><href>
+6. What do we put in the head of our HTML document?
+	<header></header> 
+7. What is an id?
+	A unique identifier for each section or tag
+8. What elements can I add an id to?
+	<html>, <body>, <h1>, <p>
+9. How many times can I use the same id on a page?
+	Once 
+10. What is a class?
+	Specified name or grouping in CSS
+11. What elements can I add a class to?
+	<p>, <html>, <h1> 
+12. How many times can I use the same class on a page?
+	Multiple times 
+13. How do I get my link to open in a new tab?
+	target="_blank"
+14. What is the alt attribute in the image tag used for?
+	Used to describe the image in cases such as those whom are with disabilites (ie. speech or dictation) to describe the image. 
+15. How do I reference an id?
+	When you reference an ID you would give make a unique identify for example <h1 id="myHeader">Title</h1> then in CSS
+	#myHeader {}
+16. What is the difference between a section and a div?
+	
+17. What is CSS used for?
+	CSS is used to style the design or presentation of HTML
+18. How to we select an element? Example - every h2 on the page
+	h2 {
+	}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	class is more specified for grouping and id is more specified for the tag invidually to be identified for CSS
+20. How do we select classes in CSS?
+	.<tag> {
+	}
+21. How do we select a p element with a single class of “human””?
+	p.human {
+	}
+22. What is a parent child selector? When would this be useful?
+	Parent child selector is CSS reasoning for creating a class for a specific section with sub-sections. Some usefulness of this would be
+	selecting a specific section and the sub-section for styling such as
+	about p.human {
+	} 
+23. How do you select all links within a div with the class of sidebar?
+   	div.sidebar {
+	}
+24. What is a pseudo selector?
+	For use when styling an element that changes when a mouse is hovered over it
+25. What do we use the change the spacing between lines?
+	<br></br>
+26. What do we use to change the spacing between letters?
+	letter-spacing: px;
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    	* {
+	text-transform:uppercase;
+	text-transform:lowercase;
+	text-transform:capitalize;
+	}
+28. How do I add a 1px border around my div that is dotted and black?
+	div {
+	border:1px dotted;
+	color: black;
+	}
+29. How do I select everything on the page?
+	* {
+	} 
+30. How do I write a comment in CSS?
+	/* <comment> */
+31. How do I find out what file I am in, when I am using the command line?
+	pwd 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+	rm <document/file>. You have to be careful with this command because you could potentially remove a file that your computer needs to function and may end up having to reinstall windows. 
+34. Why should I use version control?
+	Version control is good form of collaberation within your team
+35. How often should I commit to github?
+	Everytime you make an edit to a document and want to upload the add
+36. What is the command we would use to push our repo up to github?
+	git push <document>
+37. Walk me through Lambda's git flow.
+	git status --> git add <document> --> git status --> git commit --> git push
+	/* the reason why I put git status twice is to check and make sure that the file is added (indicated as green) */
